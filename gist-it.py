@@ -1,7 +1,8 @@
 import json
 import sys
-
 import requests
+
+API_BASE_URL = 'https://api.github.com/'
 
 def get_file_contents(filename):
     with open(filename) as f:
